@@ -16,7 +16,13 @@ web/.htaccess
 !.env.example
 
 # Composer
+<<<<<<< HEAD
 /vendor
 
 # WP-CLI
 wp-cli.local.yml
+=======
+vendor/*
+!vendor/.gitkeep
+.DS_Store
+>>>>>>> ignore .DS_Store from MacOS
